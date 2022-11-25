@@ -7,11 +7,11 @@ void printArray(int *arr, int size) {
     }
 }
 
-void ReverseArray(int *arr, int size) {
-    int start = 0;
+void ReverseArrayFromMPosition(int *arr, int size, int m) {
+    int start = m+1;
     int end = size-1;
 
-    for (int i = 0; start < end; i++) {
+    for (int i = start; start < end; i++) {
         swap(arr[start++], arr[end--]);        
     }
 }
@@ -21,12 +21,12 @@ int main() {
     int oddArr[7] = {1,2,3,4,5,6,7};
     int evenArr[6] = {1,2,3,4,5,6};
     
-    ReverseArray(oddArr, 7);
+    ReverseArrayFromMPosition(oddArr, 7, 2);
     printArray(oddArr, 7);
 
     cout << endl << endl;
 
-    ReverseArray(evenArr, 6);
+    ReverseArrayFromMPosition(evenArr, 6, 2);
     printArray(evenArr, 6);
 
     return 0;
