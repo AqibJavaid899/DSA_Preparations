@@ -12,6 +12,9 @@
 
 - <a href="https://github.com/AqibJavaid899/DSA_Preparations/tree/master/BinarySearch" title="Visit the Binary Search Section of Questions" style="background-color:#FFFFFF;color:#000000;text-decoration:none">▶ Binary Search Section of Questions </a>
 
+- <a href="https://github.com/AqibJavaid899/DSA_Preparations/tree/master/Stacks" title="Visit the Stack Section of Questions" style="background-color:#FFFFFF;color:#000000;text-decoration:none">▶ Stack Section of Questions </a>
+
+
 ## Connect with me
 
   <a href="https://twitter.com/its_aqibzid">
